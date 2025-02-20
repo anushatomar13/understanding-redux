@@ -1,6 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
 import counterReducer from '../features/counter/counterSlice'
-import { Provider } from 'react-redux'
 
 export const store = configureStore({
   reducer: {
@@ -8,7 +7,7 @@ export const store = configureStore({
   }
 })
 
-// steps
+// Steps:-
 
 // 1️⃣ User clicks the Increment button.
 // 2️⃣ The onClick event triggers handleIncrement().
